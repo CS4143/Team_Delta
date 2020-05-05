@@ -34,7 +34,7 @@
         var date = days[today.getDay()] + " " + today.getDate() + " " + months[today.getMonth()] + " " + today.getFullYear() + " ";
         
 
-        document.getElementById('ctime').innerHTML = date + h + ":" + m + " " + stat;
+        document.getElementById('ctime').innerHTML = h + ":" + m + " " + stat + ' ' + date;
         var t = setTimeout(startTime, 500);
     }
     function checkTime(i) 
