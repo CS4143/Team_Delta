@@ -20,7 +20,7 @@
           <ul>
               <li><a href="{% url 'instructor:instructor' %}">Home</a></li>
                   <li><a href="{% url 'instructor:assignment' pk %}">Add Homework</a></li>
-                  <li><a href="{% url 'instructor:grades' pk %}">Grades</a></li>
+                  <li><a class="active" href="{% url 'instructor:grades' pk %}">Grades</a></li>
               <li style="float: right;"><a class="logout" href="{% url 'accounts:logout' %}">Logout</a></li>
 
           </ul>
